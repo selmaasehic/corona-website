@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspored doktori</title>
+    <link rel="icon" href="img.png">
+    <link rel="stylesheet" href="raspored.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="navigationList">
+                    <span class="closeIcon" onclick="showIcon()"><img src="close.png"></span>
+                    <li class="navigationItem">
+                        <a href="pocetna.html">Početna</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="koronaTest.html">Online test</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="onlineMeeting.html">Online meeting</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="vakcine.html">Vakcine</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="mapaSvijeta.html">Mapa slučajeva</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="icon" id="icon" onclick="hideIcon()"><img src="whiteBar.png"></a>
+            <div class="pageName">Doktori</div>
+        </div>
+    </header>
+    <div class="prvi">
+    <section class="prvi">
+    <div class="naslov"><h1 >Termini razgovora sa doktorima</h1></div>
+    <div class="raspored">
+    <h3>Raspored za sedmicu: 16.01. - 22.01.</h3>
+    <section>
+        <table >
+            <tr>
+                <td>
+                    Ponedjeljak: 
+                </td>
+                <td> 
+                    10:30-13:00 
+                </td>
+                <td>
+                   <b>Sarah Hasić dr. porodične medicine </b> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Utorak: 
+                </td>
+                <td> 
+                    15:00-17:00 
+                </td>
+                <td>
+                   <b> dr. Mladenko Nizić spec. radiolog</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Četvrtak: 
+                </td>
+                <td> 
+                    12:00-14:30 
+                </td>
+                <td>
+                    <b> Enis Kazić diplomirani psiholog </b>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <section>
+        <p>Ukoliko želite da se pridružite nekom od termina i da Vam šaljemo mjesečni raspored, pošaljite nam Vašu e-mail adresu:</p>
+        
+        <input style= "border-radius: 5px; cursor:text; text-transform: lowercase;" id="mail" placeholder="e-mail adresa" >
+        <button class="btn" onclick="unesi()">Pošalji</button>
+        <p><i style="color: red;">Napomena: </i>Svake sedmice će se biti novi raspored </p>
+    </section>
+    </div>
+    </div>
+    <script src="raspored.js"></script>
+</body>
+</html>

@@ -1,0 +1,328 @@
+
+body{
+   
+    background-image: url(cetvrtaNaslovna.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.vakcina{
+  padding: 20px 25px 20px 25px;
+  margin-top: 20px;
+  margin-left: 25px;
+  
+    display:inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    text-align: left;
+    color:rgba(27, 115, 187, 0.973);
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.tekst{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+a{
+    color: rgba(8, 64, 148, 0.973);
+    text-align: center;
+    font-size: medium;
+    text-decoration:none;
+    display: block;
+    
+}
+
+.poređenje{
+    text-align: center;
+    color:white;
+    background-color: hsla(12, 100%, 98%, 0.24);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+}
+
+#morem {display: none;}
+#morep {display: none;}
+#mores {display: none;}
+#moresi {display: none;}
+#morej {display: none;}
+#morea {display: none;}
+#moresp {display: none;}
+
+.Fajzer{
+    color: rgb(255, 255, 255);
+   
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.Moderna{
+    color: rgb(255, 255, 255);
+   
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.Sinovac{
+    color: rgb(255, 255, 255);
+   
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+    
+
+.Sinopharm{
+    color: rgb(255, 255, 255);
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+   
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.Johnson{
+    color: rgb(255, 255, 255);
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.AstraZeneca{
+    color: rgb(255, 255, 255);
+   
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Sputnjik{
+    color: rgb(255, 255, 255);
+   
+    background-color: hsla(12, 100%, 98%, 0.24);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.zajedno{
+    display: inline-block;
+}
+
+button{
+    
+    background-color: aliceblue;
+    color:rgb(6, 88, 136);
+    border-color: white;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header{
+    margin-inline: 10px;
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+  }
+  .navigation{
+    background-color: lightgrey;
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right: 10px;
+  }
+  .navigationList{
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .navigationItem a{
+    float: right;
+    display: block;
+    text-align: center;
+    margin-inline: 20px;
+    padding: 10px;
+    color: black;
+  }
+  .navigationItem a:hover{
+    background-color: whitesmoke;
+  }
+  .closeIcon img{
+    max-width: 20px;
+    max-height: 20px;
+    float:left;
+    cursor: pointer;
+  }
+  .hide{
+    display: none;
+  }
+  .icon img{
+    color: whitesmoke;
+    max-height: 40px;
+    max-width: 40px;
+    display: inline-block;
+    margin-right: 10ox;
+    cursor: pointer;
+  }
+  .pageName{
+    color: whitesmoke;
+    font-size: 60px;
+    display: inline-block;
+  }
+
+  h5{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .bih{
+    background-color: white;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-top: 90px;
+    margin-left: 400px;
+    margin-right: 450px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 20px;
+  }
+
+  .bih a{
+    color: rgb(9, 61, 107);
+}
+.bih a:hover{
+    background-color: lightgray;
+}
+.bih img{
+    margin-top: 20px;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 20px;
+}
+
+
+.vakcinacija{
+  background-color: hsla(0, 0%, 100%, 0.616);
+  color: black;
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-left: 350px;
+  
+  padding-right: 100px;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.umrlih{
+  background-color: hsla(0, 0%, 100%, 0.616);
+  color: black;
+  margin-top: 60px;
+  margin-right: 300px;
+  margin-left: 350px;
+ 
+  padding-right: 100px;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+
+.testovi{
+  background-color: hsla(0, 0%, 100%, 0.616);
+  color: black;
+  margin-top: 60px;
+  margin-right: 300px;
+  margin-left: 350px;
+  margin-bottom: 50px;
+ 
+  padding-right: 100px;
+  padding-left: 150px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+

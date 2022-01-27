@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitanja i komentari</title>
+    <link rel="icon" href="img.png">
+    <link rel="stylesheet" href="pitanjaKomentari.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="navigationList">
+                    <span class="closeIcon" onclick="showIcon()"><img src="close.png"></span>
+                    <li class="navigationItem">
+                        <a href="pocetna.html">Početna</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="koronaTest.html">Online test</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="onlineMeeting.html">Online meeting</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="vakcine.html">Vakcine</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="mapaSvijeta.html">Mapa slučajeva</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="icon" id="icon" onclick="hideIcon()"><img src="whiteBar.png"></a>
+            <div class="pageName">Pitanja i komentari</div>
+        </div>
+    </header>
+    <br>
+    <div class="about"></div>
+    <br><br>
+        <div class="heading">
+            <h3>Komentari</h3>
+        </div>
+        <br>
+        <div class="commentBorder">
+            <div class="commentContainer">
+                <div class="head">
+                    <div class="author">Autor</div>
+                    <div class="content">Komentar</div>
+                </div>
+                <div class="body">
+                    <div class="author">
+                        <div class="username">Korisnik</div>
+                        <img src="user.png" alt="">
+                    </div>
+                    <div class="content">
+                        Stranica za 15!
+                    </div>
+                </div>
+            </div>
+            <br> <br>
+            <div class="commentContainer">
+                <div class="head">
+                    <div class="author">Autor</div>
+                    <div class="content">Komentar</div>
+                </div>
+                <div class="body">
+                    <div class="author">
+                        <div class="username">Korisnik</div>
+                        <img src="user.png" alt="">
+                    </div>
+                    <div class="content">
+                        Sve informacije na jednom mjestu! Svaka čast za administratora.
+                    </div>
+                </div>
+            </div>
+            <br> <br>
+            <div class="commentContainer">
+                <div class="head">
+                    <div class="author">Autor</div>
+                    <div class="content">Komentar</div>
+                </div>
+                <div class="body">
+                    <div class="author">
+                        <div class="username">Korisnik</div>
+                        <img src="user.png" alt="">
+                    </div>
+                    <div class="content">
+                        Odlična stranica!
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+            <div class="commentContainer hide" id="com11">
+                <div class="head">
+                    <div class="author">Autor</div>
+                    <div class="content">Komentar</div>
+                </div>
+                <div class="body">
+                    <div class="author">
+                        <div class="username">Korisnik</div>
+                        <img src="user.png" alt="">
+                    </div>
+                    <div class="content" id="com1"></div>
+                </div>
+            </div>
+        </div>
+        <div class="commentInput">
+            <div id="output" class="outputStyle"></div>
+            <textarea name="comment" id="newCommentArea" placeholder="Comment here ..."></textarea>
+            <button onclick="getText()" type="button" name="button">Submit</button>
+        </div>
+    <script src="pitanjaKomentari.js"></script>
+</body>
+</html>

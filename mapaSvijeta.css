@@ -1,0 +1,125 @@
+body{
+  background-image: url("worldMap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+.kontinenti{
+    position: absolute;
+}
+.azija{
+    position: fixed;
+    left: 920px;
+    top: 230px;
+}
+.evropa{
+    position: fixed;
+    left: 650px;
+    top: 240px;
+}
+.sjevernaAmerika{
+    position: fixed;
+    left: 200px;
+    top: 230px;
+}
+.juznaAmerika{
+    position: fixed;
+    left: 360px;
+    top: 480px;
+}
+.afrika{
+    position: fixed;
+    left: 660px;
+    top: 390px;
+}
+.australija{
+    position: fixed;
+    left: 1065px;
+    top: 570px;
+}
+.australija a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+.evropa a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+.azija a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+.sjevernaAmerika a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+.juznaAmerika a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+.afrika a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+header{
+    margin-inline: 10px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    background-color: lightgrey;
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right: 10px;
+}
+.navigationList{
+    list-style-type: none;
+    overflow: hidden;
+}
+.navigationItem a{
+    float: right;
+    display: block;
+    text-align: center;
+    margin-inline: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigationItem a:hover{
+    background-color: whitesmoke;
+}
+.closeIcon img{
+    max-width: 20px;
+    max-height: 20px;
+    float:left;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.icon img{
+    color: whitesmoke;
+    max-height: 40px;
+    max-width: 40px;
+    display: inline-block;
+    margin-right: 10ox;
+    cursor: pointer;
+}
+.pageName{
+    color: whitesmoke;
+    font-size: 60px;
+    display: inline-block;
+}

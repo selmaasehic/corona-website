@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona test</title>
+    <link rel="icon" href="img.png">
+    <link rel="stylesheet" href="koronaTest.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="navigationList">
+                    <span class="closeIcon" onclick="showIcon()"><img src="close.png"></span>
+                    <li class="navigationItem">
+                        <a href="pocetna.html">Početna</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="pitanjaKomentari.html">Pitanja i komentari</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="onlineMeeting.html">Online meeting</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="vakcine.html">Vakcine</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="mapaSvijeta.html">Mapa slučajeva</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="icon" id="icon" onclick="hideIcon()"><img src="whiteBar.png"></a>
+            <div class="pageName">Online test</div>
+        </div>
+    </header>
+    <style>
+    .but{
+  background-color: lightpink; 
+  cursor: pointer; 
+  border-radius: 16px;
+}
+.but:focus,
+.but:hover{
+  transform: scale(1.15);
+  color:black;
+  border:solid 2px green;
+  background-color: green;
+  
+}
+
+
+
+    </style>
+    <script src="koronaTest.js"></script>
+    <div class="border">
+    <div class="drugi">
+        <h1>Kako mogu znati imam li COVID?</h1>
+        <p>Ovo pitanje nam je na umu od početka pandemije. Još uvijek ne možemo dati pravi odgovor. <br>Simptomi se mogu kretati od blage do teške bolesti, a javljaju se 2-14 dana nakon što ste 
+            bili izloženi virusu koji uzrokuje COVID-19.<br>
+            2020. godine bi suhi kašalj i temperatura bili jasni simptomi COVID-19. Ako su međutim uz njih bili još glavobolja i bolovi u udovima onda je to bio jasan slučaj gripe.
+        Sa upalom grla na sve ovo, davao bi se zaključak da je u pitanju osoba oboljela od COVID-a. <br>
+    Simptomi COVID-a varijaju od sojeva. Trenutni soj je omikron. Liječnici u Južnoj Africi ranije su već izjavili kako ovaj soj, za razliku od prethodnih verzija, još nije doveo do hospitalizacija ili smrti.</p>
+        </div>
+
+    <div class="test">
+        <h1 style="font-size: 23px;">Provjerite da li ste možda zaraženi omikron sojem</h1>
+    </div>
+    <br>
+    <div class="test1">
+        <div class="slika">
+            <h1 > <button class="but"  onclick="prvi()">Visoka tjelesna temperatura</button></h1>
+            <img src="temperatura.png" width="200px" height="150px">
+        </div>
+    <div class="slika">
+        <h1 ><button class="but"  onclick="drugi()">Umor</button></h1>
+        <img src="umor.png" width="200px" height="150px">
+    </div>
+    <div class="slika">
+        <h1 ><button class="but"  onclick="treci()">Gubitak čula mirisa ili okusa</button></h1>
+        <img src="cula.png" width="200px" height="150px">
+    </div>
+    
+    <div class="slika">
+        <h1 ><button class="but"onclick="cetvrti()">Bolovi u mišićima</button></h1>
+        <img src="misici.png" width="200px" height="150px">
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="test1">
+        <div class="slika">
+            <h1 ><button class="but" onclick="peti()" >Kratak dah</button></h1>
+            <img src="pluca.png" width="200px" height="150px">
+        </div>
+        <div class="slika">
+            <h1 ><button class="but"onclick="sesti()">Suhi kašalj</button></h1>
+            <img src="kasalj.png" width="200px" height="150px">
+        </div>
+        <div class="slika">
+            <h1 ><button class="but"  onclick="sedmi()">Upala grla</button></h1>
+            <img src="grlobolja.png" width="200px" height="150px">
+        </div>
+        <div class="slika">
+            <h1 ><button class="but"   onclick="osmi()">Jaka glavobolja</button></h1>
+            <img src="glavobolja.png" width="200px" height="150px">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div style="text-align: center; font-size: 25px;" class="rezultat">
+        <p style="font-size: 20px; color: black;" Id="r">Rezultat: </p>
+        <button style="cursor: progress;" onclick="rezultat()">Rezultat</button>
+        <button style="cursor:pointer" onclick="prazno()">Clear</button>
+    </div>
+    </div>
+   <script>
+       var ab=document.getElementById("r").innerHTML
+       function prazno()
+       {
+        document.getElementById("r").innerHTML=ab;
+       }
+  
+
+   </script>
+</body>
+</html>

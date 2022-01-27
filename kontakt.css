@@ -1,0 +1,19 @@
+.kontact
+{
+    background-color: hsla(20, 100%, 99%, 0.055);
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.kontact1{
+    text-align: left;
+    border:outset rgb(197, 83, 83) 3px;
+   padding: 10px;
+    display: inline-block;
+    
+}

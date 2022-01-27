@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raspored za sport</title>
+    <link rel="icon" href="img.png">
+    <link rel="stylesheet" href="raspored.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <ul class="navigationList">
+                    <span class="closeIcon" onclick="showIcon()"><img src="close.png"></span>
+                    <li class="navigationItem">
+                        <a href="pocetna.html">Početna</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="koronaTest.html">Online test</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="onlineMeeting.html">Online meeting</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="vakcine.html">Vakcine</a>
+                    </li>
+                    <li class="navigationItem">
+                        <a href="mapaSvijeta.html">Mapa slučajeva</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="icon" id="icon" onclick="hideIcon()"><img src="whiteBar.png"></a>
+            <div class="pageName">Sport</div>
+        </div>
+    </header>
+    <div class="prvi">
+    <div class="naslov"><h1 >Termini za sport</h1></div >
+    <div class="raspored">
+    <h3>Raspored za sedmicu: 16.01. - 22.01.</h3>
+    <div >
+        <table >
+            <tr >
+                <td>
+                   Utorak: 
+                </td>
+                <td> 
+                    10:00-14:00 
+                </td>
+                <td>
+                    <b>Alma Pamuk</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Srijeda: 
+                </td>
+                <td> 
+                    16:00-20:00 
+                </td>
+                <td>
+                    <b>Lejla Velić</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Petak: 
+                </td>
+                <td> 
+                    16:00-20:00
+                </td>
+                <td>
+                   <b>Mirnes Rahman</b> 
+                </td>
+            </tr>
+        </table>
+    </div >
+    <div >
+        <p>Ukoliko želite da se pridružite nekom od termina i da Vam šaljemo mjesečni raspored, pošaljite nam Vašu e-mail adresu:</p>
+        
+        <input style= "border-radius: 5px; cursor:text; text-transform: lowercase;" id="mail" placeholder="e-mail adresa" >
+        <button class="btn" onclick="unesi()">Pošalji</button>
+        <p><i style="color: red;">Napomena: </i>Svake sedmice će se biti novi raspored </p>
+    </div >
+    </div>
+    </div>
+   <script src="raspored.js"></script>
+</body>
+</html>
